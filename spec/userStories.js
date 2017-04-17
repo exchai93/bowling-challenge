@@ -1,44 +1,44 @@
 Bowling game user stories:
 
-Stakeholder
-Motivation
-Task
-
 1.
 As a player
 So that I can play a game bowling
 I want a game of bowling to have 10 frames
-
+// frame spec
 2.
 As a player
 So that I can complete one frame of bowling
 I want to be able to roll two times
-
+// frame spec
 3.
 As a player
 So that I can roll the ball in a frame
 I want to make sure that I have not already rolled twice
-
+// frame spec
 4.
 As a player
 So that I can continue playing the bowling game
-I want to be able to move onto the next frame
-
+I want to move onto the next frame
+// game spec
 5.
 As a player
 So that I can move onto the next frame
-I want the frame to end after two rolls
-
+I want to set a new frame after two rolls
+// frame spec
+As a player
+So that I can go onto the second roll
+I want to increase the roll count after the first roll
+// frame spec
 6.
 As a player
-So that I know when the frame ends
-I want to know the roll number
-
+So that I know when to set a new frame
+I want to increase the roll count after the second roll
+// frame spec
 7.
 As a player
 So that I know when the game is completed
 I want to know the frame number
-
+// game spec
 8.
 As a player
 So that I can knock down pins
@@ -46,7 +46,7 @@ I want each frame to start with 10 pins
 
 9.
 As a player
-So that I can roll the next frame
+So that I can roll in the next frame
 I want the pins to be reset after every frame
 
 10.
